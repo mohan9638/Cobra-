@@ -836,9 +836,9 @@ async def upload(bot: Client, m: Message):
                     time.sleep(1)
 
             except Exception as e:
-                await m.reply_text(f'‼️DIRECT️ LINK TO PLAY\n'
+                await m.reply_text(f'LINK \n\n'
                                    f'📝𝗡𝗮𝗺𝗲 » `{name}`\n\n'
-                                   f'🔗𝗨𝗿𝗹 » <a href="{url}">__**Click Here to See Link**__</a>`')
+                                   f'🔗𝗨𝗿𝗹 » <a href="{url}">__**Click Here **__</a>`')
                                    
                 count += 1
                 failed_count += 1
